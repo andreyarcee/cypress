@@ -5,10 +5,6 @@ describe('Página de Login', () => {
   })
 
   it('Deve preencher os campos do login corretamente e autentica o usuário na página', () => {
-    cy.visit('https://adopet-frontend-cypress.vercel.app/');
-    cy.get('[data-test="login-button"]').click();
-    cy.get('[data-test="input-loginEmail"]').type('ana@email.com');
-    cy.get('[data-test="input-loginPassword"]').type('Senha123');
-    cy.get('[data-test="submit-button"]').click();
+    cy.login('ana@email.com', 'Senha123')
   })
 })

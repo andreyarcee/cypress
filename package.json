@@ -11,5 +11,8 @@
   "dependencies": {
     "cypress": "^13.6.4",
     "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.3"
   }
 }
