@@ -3,7 +3,7 @@ node_modules/
 
 # Ignorar pastas geradas automaticamente pelos testes
 cypress/screenshots/
-cypress/videos/
+#cypress/videos/
 cypress/downloads/
 
 # Ignorar arquivos temporários de sistema ou editor
