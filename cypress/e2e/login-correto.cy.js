@@ -7,4 +7,9 @@ describe('Página de Login', () => {
   it('Deve preencher os campos do login corretamente e autentica o usuário na página', () => {
     cy.login('ana@email.com', 'Senha123')
   })
+
+    it('Login pela página de mensagem', () => {
+    cy.get('.header__message').click();
+    cy.login('ana@email.com', 'Senha123')
+  })
 })
