@@ -8,7 +8,7 @@ describe('Página de Login', () => {
     cy.login('ana@email.com', 'Senha123')
   })
 
-    it('Login pela página de mensagem', () => {
+    it('Login pelo ícone de mensagem', () => {
     cy.get('.header__message').click();
     cy.login('ana@email.com', 'Senha123')
   })
