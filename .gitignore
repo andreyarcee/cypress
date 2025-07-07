@@ -1,0 +1,16 @@
+# Ignorar node_modules
+node_modules/
+
+# Ignorar pastas geradas automaticamente pelos testes
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Ignorar arquivos temporários de sistema ou editor
+.DS_Store
+*.log
+
+# Ignorar cache do Cypress (se tiver na raiz)
+cypress-cache/
+
+cypress.env.json
